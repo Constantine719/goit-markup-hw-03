@@ -100,17 +100,28 @@ a {
   color: var(--white-color);
 }
 
-/* 
+/* Button */
+
 .button {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  text-align: center;
+
+
   color: var(--white-color);
   background: var(--accent-color);
 }
- */
 
-.main-button {
+
+/* .main-button {
   font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
@@ -121,7 +132,7 @@ a {
 .main-button {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
+} */
 
 /* Преимущества */
 
@@ -241,7 +252,7 @@ a {
 
 /* portfolio.html */
 
-.button {
+/* .button {
   font-family: Roboto;
   font-style: normal;
   color: var(--primary-text-color);
@@ -250,18 +261,18 @@ a {
   line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: var(--secondary-background-color);
-}
+} */
 
-.button.primary {
+/* .button.primary {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
+} */
 
-.button:hover,
+/* .button:hover,
 .button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
+} */
 
 .works-invisible {
   color: var(--white-color);
