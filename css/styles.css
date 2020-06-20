@@ -37,10 +37,15 @@ a {
 }
 
 .container {
-margin-left: auto;
-margin-right: auto;
-width: 1200px;
-outline: 2px solid teal;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+  width: 1200px;
+  background-color: tomato;
+}
+
+.container.no-padding {
+  padding-bottom: 0;
 }
 
 .logo-web {
@@ -100,16 +105,23 @@ outline: 2px solid teal;
 
 /* Герой */
 
+.hero {
+  margin-bottom: 94px;
+  text-align: center;
+}
+
 .hero-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30;
+
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+
   color: var(--white-color);
-  background-color: tomato;
+  outline: 1px solid tomato;
 }
 
 /* Button */
@@ -127,32 +139,26 @@ outline: 2px solid teal;
   line-height: 1.87;
   text-align: center;
 
-
   color: var(--white-color);
   background: var(--accent-color);
 }
 
-
-/* .main-button {
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-}
-
-.main-button {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-} */
-
 /* Преимущества */
 
+.features-text.no-margin {
+  margin-bottom: 0;
+}
+
 .invisible-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--white-color);
 }
 
 .features-title {
+  margin-top: 0;
+  margin-bottom: 10;
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -161,6 +167,8 @@ outline: 2px solid teal;
 }
 
 .features-text {
+  margin-top: 0;
+  margin-bottom: 94px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -170,6 +178,8 @@ outline: 2px solid teal;
 /* Услуги */
 
 .services-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -178,6 +188,8 @@ outline: 2px solid teal;
 }
 
 .services-text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -192,6 +204,8 @@ outline: 2px solid teal;
 }
 
 .team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -217,6 +231,8 @@ outline: 2px solid teal;
 /* Клиенты */
 
 .customers-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
