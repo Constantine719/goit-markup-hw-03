@@ -36,6 +36,13 @@ a {
   text-decoration: none;
 }
 
+.container {
+margin-left: auto;
+margin-right: auto;
+width: 1200px;
+outline: 2px solid teal;
+}
+
 .logo-web {
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -56,6 +63,8 @@ a {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Навигация */
@@ -91,13 +100,16 @@ a {
 
 /* Герой */
 
-.main-title {
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  background-color: tomato;
 }
 
 /* Button */
