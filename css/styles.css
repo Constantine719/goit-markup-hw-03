@@ -41,14 +41,13 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
   width: 1200px;
   outline: 1px solid tomato;
 }
 
-.container.no-padding {
+/* .container.no-padding {
   padding-bottom: 0;
-}
+} */
 
 .logo-web {
   font-family: Raleway, sans-serif;
@@ -184,14 +183,27 @@ a {
 
 /* Преимущества */
 
-.features-text.no-margin {
-  margin-bottom: 0;
-}
+
 
 .invisible-title {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--white-color);
+}
+
+.features {
+  display: flex;  
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-item {
+  width: 270px;
+  height: 131px;
+}
+
+.features .features-item + .features-item {
+  margin-left: 30px;
 }
 
 .features-title {
@@ -208,14 +220,32 @@ a {
 
 .features-text {
   margin-top: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
+.features-text.no-margin {
+  margin-bottom: 0;
+}
+
 /* Услуги */
+
+.services-div {
+  text-align: center;  
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+.services {
+display: flex;
+}
+
+.services .services-item + .services-item {
+  margin-left: 30px;
+}
 
 .services-title {
   margin-top: 0;
@@ -328,7 +358,7 @@ a {
   font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  
+
   color: var(--footer-copyright-color);
 }
 
