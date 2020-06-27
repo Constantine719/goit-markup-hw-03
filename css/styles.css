@@ -320,6 +320,13 @@ a {
   color: var(--secondary-text-color);
 }
 
+.team-soclink {
+  display: flex;
+}
+
+.team-soclink-list:not(:last-child) {
+  margin-right: 10px;
+}
 /* Клиенты */
 
 .customers-div {
@@ -348,8 +355,30 @@ a {
 .footer {
   background-color: var(--footer-background-color);
 }
+.footer-div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo-div {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.joinin {
+  display: flex;
+}
+
+.joinin-list:not(:last-child) {
+  margin-right: 10px;
+}
 
 .footer-text {
+  margin-top: 0;
+  margin-bottom: 9px;
   text-transform: uppercase;
   font-family: Roboto;
   font-style: normal;
@@ -361,8 +390,13 @@ a {
   color: var(--white-color);
 }
 
+.footer-email {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
 .footer-info {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
