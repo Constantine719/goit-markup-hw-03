@@ -49,6 +49,17 @@ a {
   padding-bottom: 0;
 } */
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+.section-nopb {
+  padding-top: 94px;
+  padding-bottom: 0;
+}
+
 .logo-web {
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -191,8 +202,8 @@ a {
 
 .features {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .features-item {
@@ -205,6 +216,7 @@ a {
 }
 
 .features-title {
+  text-align: left;
   margin-top: 0;
   margin-bottom: 10;
 
@@ -217,6 +229,7 @@ a {
 }
 
 .features-text {
+  text-align: left;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
@@ -272,15 +285,20 @@ a {
 
 /* Команда */
 
-.team {
-  background-color: var(--secondary-background-color);
-}
-
-.team-div {
+ .team {
   text-align: center;
+
   padding-top: 94px;
   padding-bottom: 94px;
-}
+
+  background-color: var(--secondary-background-color);
+} 
+
+ /* .team-div {
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px; 
+} */
 
 .team-title {
   margin-top: 0;
