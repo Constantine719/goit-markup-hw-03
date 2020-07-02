@@ -207,9 +207,14 @@ a {
   padding-bottom: 94px; */
 }
 
-.features-item {
-  width: 270px;
-  height: 131px;
+.features-img {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .features .features-item + .features-item {
