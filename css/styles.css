@@ -423,6 +423,16 @@ a {
   margin-bottom: 20px;
 }
 
+.logo-studio-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: var(--white-color);
+}
+
 .joinin {
   display: flex;
 }
@@ -519,7 +529,10 @@ a {
 
 .button-portf {
   display: inline-block;
-  padding: 10px 32px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
   min-width: 22px;
   border: 1px solid transparent;
   border-radius: 4px;
