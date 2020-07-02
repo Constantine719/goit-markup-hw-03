@@ -56,6 +56,11 @@ a {
   text-align: center;
 }
 
+.section-portf {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .section-nopb {
   padding-top: 94px;
   padding-bottom: 0;
@@ -512,10 +517,10 @@ a {
 
 /* portfolio.html */
 
-.portfolio-div {
+/* .portfolio-div {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .filters-list {
   display: flex;
@@ -575,6 +580,7 @@ a {
 .works-project-list {
   margin-right: 30px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
   background: var(--white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -593,6 +599,8 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 24px;
+  padding-right: 24px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -602,7 +610,8 @@ a {
 
 .project-meaning {
   margin: 0;
-  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
